@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* margin-top: 40px; */
+  justify-content: center;
+
+  align-items: center;
+}
+
+.main {
+  /* margin-left: 360px; */
+  border: 2px solid black;
+  width: 20%;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

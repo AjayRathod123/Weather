@@ -1,0 +1,87 @@
+.main__temp {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(46, 46, 46);
+  color: white;
+}
+
+.temp__search {
+  margin-top: 80px;
+}
+
+.temp__search input {
+  padding: 8px;
+  width: 70%;
+  border-radius: 5px;
+  outline: none;
+}
+
+.temp__button {
+  padding: 8px;
+  background-color: aqua;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.temp__button:hover {
+  color: aqua;
+  background-color: white;
+}
+
+.temp__info {
+  height: 50vh;
+  width: 40%;
+  background-color: white;
+  margin-top: 40px;
+  border-radius: 15px;
+}
+
+.temp__icon {
+  color: black;
+  font-size: 5rem;
+  margin-top: 20px;
+}
+
+.temp__details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: black;
+  height: 15vh;
+}
+
+.temp__degree {
+  font-size: 4rem;
+  margin-right: 20px;
+}
+
+.temp__condition {
+  font-size: 3rem;
+  margin-top: 10px;
+}
+
+.temp__city {
+  font-size: 1rem;
+  margin-right: 110px;
+}
+
+.temp__addDetails {
+  display: flex;
+  color: black;
+  justify-content: space-evenly;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 30px;
+}
+
+.temp__addDetails p {
+  color: black;
+  font-weight: bold;
+}
